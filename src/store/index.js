@@ -3,9 +3,8 @@ import Vue from 'vue'
 
 Vue.use(Vuex)
 
-let store = new Vuex.Store({})
-
-store.registerModule('vux', { 
+let store = new Vuex.Store({
+  modules: {},
   state: {
     isLoading: false
   },
